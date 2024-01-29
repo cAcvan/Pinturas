@@ -90,7 +90,6 @@ public class Main {
         Esfera esfera = new Esfera(15);
         Cilindro cilindro = new Cilindro(10, 30);
 
-        System.out.println("Bienvenido José Andrés!!!");
         System.out.println("Ahora aparecerá la cantidad de pintura de formas geométricas (Esfera, rectángulo y cilindro), utilizando su área y su cobertura de pintura :)");
         System.out.println("Esfera: " + pintura.calcularPintura(esfera));
         System.out.println("Rectángulo: "+ pintura.calcularPintura(rectangulo));
